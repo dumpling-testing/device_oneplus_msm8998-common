@@ -300,3 +300,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Wi-Fi
 PRODUCT_PROPERTY_OVERRIDES += \
     wifi.interface=wlan0
+
+# enable FIFO scheduling for UI and Render threads by default
+PRODUCT_PROPERTY_OVERRIDES += \
+    sys.use_fifo_ui=1
