@@ -632,4 +632,7 @@
 
     <!-- Enable 802.11ac for Wifi hotspot (SAP) -->
     <bool translatable="false" name="config_wifi_softap_ieee80211ac_supported">true</bool>
+
+    <!-- Enable all rotations -->
+    <bool name="config_allowAllRotations">true</bool>
 </resources>
