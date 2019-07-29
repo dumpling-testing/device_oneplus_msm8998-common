@@ -130,6 +130,10 @@ PRODUCT_PACKAGES += \
     AntHalService \
     com.dsi.ant.antradio_library
 
+# AOSiP Device Settings
+PRODUCT_PACKAGES += \
+    DeviceSettings
+
 # Bluetooth
 PRODUCT_PACKAGES += \
     libbt-vendor \
@@ -180,8 +184,7 @@ PRODUCT_PACKAGES += \
     libtinyxml \
     libqdMetaData \
     libqdMetaData.system \
-    libvulkan \
-    DisplayMode
+    libvulkan
 
 PRODUCT_PACKAGES += \
     vendor.display.config@1.0 \
@@ -264,10 +267,6 @@ PRODUCT_COPY_FILES += \
 # IRSC
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config
-
-# KeyHandler
-PRODUCT_PACKAGES += \
-    KeyHandler
 
 # Keylayout
 PRODUCT_COPY_FILES += \
