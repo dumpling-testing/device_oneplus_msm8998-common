@@ -64,6 +64,10 @@ vendor/bin/msm_irqbalance
 # NFC firmware
 vendor/lib/libpn553_fw.so
 
+# Perf - from taimen PQ3A.190801.002
+vendor/lib/libqti-perfd-client.so|f277daf9632b4d4c22a27abec2c4d0ccf776892d
+vendor/lib64/libqti-perfd-client.so|eaf678de5d7d0de194a263db1835b1f582452419
+
 # Radio - factory
 -framework/vendor.oneplus.hardware.param-V1.0-java.jar
 lib/vendor.oneplus.hardware.param@1.0.so
